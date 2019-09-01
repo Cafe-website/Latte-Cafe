@@ -1,0 +1,56 @@
+<!DOCTPYE html>
+<html>
+
+ <!--this is to make the website to adjust in order to be more suitable for different screen sizes-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="cafe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Fonts the website uses are imported from Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter&display=swap" rel="stylesheet">
+</html>
+
+<html lang="en">
+    <head>
+        <div id="header">
+        <title>Latte Cafe</title>
+        <div class="headertxt">
+        <h1>Latte Cafe</h1>
+        </div>
+        <div class="subtxt"> 
+        <p>Browse through our menu :)</p>
+        </div>
+        </div>
+    </head>
+    
+<div class="topnav" id="myTopnav">
+    <a  href="index.html">Home</a>
+    <a  class="active" href="menu.html">Menu</a>
+    <a href="CafeContacts.html">Contact</a> 
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+    </div>
+    
+    <body>
+        <div id="body3">
+        <p>Latte Cafe serves many beverages. Whether you want coffee or tea- cold or hot, we will do our best to fulfill our customer's needs</p>
+        <p>Please feel free to contact any of our staff members to inquire us about dietary requirements!</p>
+        <div id="menu">
+        <p></p>
+        </div>
+        </div>
+        </body>
+        <div id="footer">
+        <p></p>
+        </div>
+        <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</html>
