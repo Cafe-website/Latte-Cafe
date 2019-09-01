@@ -80,7 +80,7 @@
         display: none;   
     }
 
-/*Responsive aspect of the website*/
+/*Responsive aspect of the navbar*/
     @media screen and (max-width: 600px) {
         .topnav a:not(:first-child) {display: none;}
         .topnav a.icon {
@@ -106,7 +106,7 @@
 
 
 /*Stling for the body of texts on all pages*/
-    /*Styling for the background of body1 (first body of text after header image*/
+    /*Styling for the background of body1 (Home page, first body of text after header image)*/
     #body1{
         min-height: 1000px;
         background-color: #333;
@@ -130,7 +130,7 @@
                 max-width: 65%;
                 height: auto;
             } 
-
+    /*Styling for the background of body2 (Home page, 2nd body of text*/
     #body2{
         min-height: 100%;;
         background-color: #333;
@@ -342,17 +342,16 @@
             }
        #body4{
             font-size: 10px;
-            
+            line-height: 140%;
         }
             .menu{
                 font-size: 10px;
                 padding-top: 5px;
-                line-height: 100%;
             }
             #footer{
                 font-size: 10px;
             }
-}
+        }
         
 
         
