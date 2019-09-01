@@ -118,7 +118,6 @@
         .opentime{
                 color: white;
                 text-align: center;
-                background-repeat: no-repeat;
                 padding-top: 20px;
                 font-size: 35px;
                 line-height: 200%;
@@ -132,39 +131,55 @@
                 height: auto;
             } 
 
-
-
-
     #body2{
         min-height: 100%;;
         background-color: #333;
         background-image: url('https://images.unsplash.com/photo-1500912708295-4cf8b060f381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
         background-repeat: no-repeat;
         background-position: center;
-        padding-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
-        font-size: 28px;
+        padding: 200px;
+        padding-top: 300px;
+        font-size: 30px;
         font-family: 'Bitter';
         color: white;
-        text-align: center;   
     }
+
+
  #body3{
         min-height: 1000px;
         background-color: #333;
         font-size: 28px;
         font-family: 'Bitter';
         color: white;
-        text-align: center;
-        line-height: 100%;
-        padding-top: 20px;
-        padding: 100px;
+        text-align: left;
+        padding: 20px;
+        padding-top: 50px;
+    }
+.menu{
+    font-size: 20px;
+    padding-top: 100;
+    line-height: 130%;
+}
+.price
+    {
+    font-weight: bold;
     }
 
     #footer{
         min-height: 100px;
         background-color: black;
         
+    }
+
+
+    #body4{
+        min-height: 100px;
+        background-color: #333;
+        font-size: 28px;
+        font-family: 'Bitter';
+        color: white;
+        padding: 20px;
+        line-height: 100px;
     }
 
     @media screen and (max-width: 1000px) {
@@ -180,11 +195,27 @@
             padding-left: 110;
             text-align: right;
         }
+        .opentime{
+            font-size: 30px;
+              display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 20px;
+        }
+               .image1{
+            float: none;
+            padding: 10%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 40px;
+            height: auto;
+        }
         
         
     @media screen and (max-width: 950px) {
         h1{
-        font-size: 85px;
+        font-size: 80px;
         padding-right: 20px;
         float: none;
         padding-top: 10%;
@@ -195,7 +226,31 @@
             padding-left: 110;
             text-align: right;
             padding-right: 10px;
-
+        }
+        .image1{
+            float: none;
+            padding: 10%;
+            padding-bottom: 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .opentime{
+            font-size: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 10px;
+            height: auto;
+        }
+              #body2{
+            font-size: 30px;
+             padding: 20px;
+             padding-top: 200px;
+        }
+        #body4{
+            font-size: 20px;
         }
 }
         
@@ -205,7 +260,7 @@
         h1{
             font-size: 70px;
             text-align: center;
-            padding-top: 100px;
+            padding-top: 30px;
         }
         .headertxt{
             font-size: 30px;
@@ -213,14 +268,14 @@
             padding-top: 0%;
             padding-left: 0%;
             padding-right: 10px;
-
         }
         .image1{
             float: none;
             padding: 10%;
             display: block;
             margin-left: auto;
-            margin-right: auto
+            margin-right: auto;
+            
         }
         .opentime{
             font-size: 20px;
@@ -229,8 +284,24 @@
             margin-right: auto;
         padding-bottom: 40px;
         }
+               .image1{
+            float: none;
+            padding: 10%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 40px;
+            height: auto;
+        }
+         #body2{
+            font-size: 20px;
+             padding: 20px;
+             padding-top: 100px;
+        }
         
-            @media screen and (max-width: 450px) {
+        }
+        
+        @media screen and (max-width: 500px) {
         h1{
         font-size: 60px;
         padding-right: 20px;
@@ -245,6 +316,15 @@
             padding-right: 10px;
             text-align: center;
         }
+        #body2{
+            font-size: 25px;
+            padding: 10px;
+            padding-top: 200px;
+        }
+       #body4{
+            font-size: 15px;
+        }
+        
 }
         
 
