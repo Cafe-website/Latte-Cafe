@@ -260,6 +260,9 @@
         #body4{
             font-size: 20px;
         }
+            #footer{
+                font-size: 10px;
+            }
 }
         
     @media screen and (max-width: 600px) {
@@ -306,6 +309,9 @@
              padding: 20px;
              padding-top: 100px;
         }
+            #footer{
+                font-size: 10px;
+            }
         
         }
         
@@ -341,6 +347,10 @@
             .menu{
                 font-size: 10px;
                 padding-top: 5px;
+                line-height: 100%;
+            }
+            #footer{
+                font-size: 10px;
             }
 }
         
