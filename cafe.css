@@ -13,7 +13,6 @@
         overflow-x: hidden; 
     }
 
-/*When the screen has a min width starting from 1001px, it will follow all the styling below*/
     /*Header of the website, insert photo a url in background-image to replace the header image*/
     #header {
         background-image:url("https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1962&q=80");
@@ -116,23 +115,22 @@
         color: white;
         padding-top: 20px;
     }
-        /*Text styling for open times (Home page)*/
         .opentime{
-            color: white;
-            text-align: center;
-            padding-top: 20px;
-            font-size: 35px;
-            line-height: 200%;
+                color: white;
+                text-align: center;
+                padding-top: 20px;
+                font-size: 35px;
+                line-height: 200%;
             }
-        /*Image styling for very top image after navbar (Home page)*/
+        
         .image1{
-            float: left;
-            padding-top: 30px;
-            padding-left: 70px;
-            max-width: 65%;
-            height: auto;
+                float: left;
+                padding-top: 30px;
+                padding-left: 70px;
+                max-width: 65%;
+                height: auto;
             } 
-    /*Styling for the background of body2 (Home page, 2nd body of text)*/
+    /*Styling for the background of body2 (Home page, 2nd body of text*/
     #body2{
         min-height: 100%;;
         background-color: #333;
@@ -146,8 +144,8 @@
         color: white;
     }
 
-    /*Styling for body3 text (Menu page, first body of text after header image)*/
-    #body3{
+
+ #body3{
         min-height: 1000px;
         background-color: #333;
         font-size: 28px;
@@ -157,19 +155,24 @@
         padding: 20px;
         padding-top: 50px;
     }
-        /*Text styling for the list of menu (Menu page)*/
-        .menu{
-            font-size: 20px;
-            line-height: 130%;
-        }
-        /*Text styling for the price of menu (Menu page)*/
-        .price{
-            font-weight: bold;
-        }
+.menu{
+    font-size: 20px;
+    padding-top: 100;
+    line-height: 130%;
+}
+.price
+    {
+    font-weight: bold;
+    }
+
+    #footer{
+        min-height: 100px;
+        background-color: #333;
+        color: white;
+        
+    }
 
 
-
-    /*Styling for body4 (Contact page, for body of text)*/
     #body4{
         min-height: 100px;
         background-color: #333;
@@ -180,16 +183,14 @@
         line-height: 100px;
     }
 
-    /*Styling for footer (ALL pages, last body of text)*/
-    #footer{
-        background-color: #333;
-        color: white;
-        background-color: #333;
-        font-size: 15px;
-        font-family: 'Bitter';        
-    }
+#footer{
+            min-height: 0px;
+            background-color: #333;
+            font-size: 15px;
+            font-family: 'Bitter';
+            color: white; 
+}
 
-/*When the screen has a width of 1000px~951px, the design format of the website will change. Image1 for home page (index.html) will move to the center of the screen. Header text, font and image sizes will change for all pages*/
     @media screen and (max-width: 1000px) {
         h1{
         font-size: 85px;
@@ -200,6 +201,7 @@
         text-align: right;
                 }
         .headertxt{
+            padding-left: 110;
             text-align: right;
         }
         .opentime{
@@ -209,7 +211,7 @@
             margin-right: auto;
             padding-bottom: 20px;
         }
-        .image1{
+               .image1{
             float: none;
             padding: 10%;
             display: block;
@@ -219,7 +221,7 @@
             height: auto;
         }
         
-/*When the screen has a width of 950px~600px, the design format of the website will change. Image1 for home page (index.html) will move to the center of the screen. Header text will move to top center of the screen, font and image sizes will change for all pages*/
+        
     @media screen and (max-width: 950px) {
         h1{
         font-size: 80px;
@@ -230,6 +232,7 @@
         text-align: right;
                 }
         .headertxt{
+            padding-left: 110;
             text-align: right;
             padding-right: 10px;
         }
@@ -260,9 +263,9 @@
         }
             #footer{
                 font-size: 10px;
-            }}
-    
-/*When the screen has a width of 600px~500px, the design format of the website will change. Image1 for home page (index.html) will move to the center of the screen. Header text will move to top center of the screen, font and image sizes will change for all pages*/
+            }
+}
+        
     @media screen and (max-width: 600px) {
         #header{
         }
@@ -288,12 +291,12 @@
         }
         .opentime{
             font-size: 20px;
-            display: block;
+              display: block;
             margin-left: auto;
             margin-right: auto;
-            padding-bottom: 40px;
+        padding-bottom: 40px;
         }
-        .image1{
+               .image1{
             float: none;
             padding: 10%;
             display: block;
@@ -307,11 +310,12 @@
              padding: 20px;
              padding-top: 100px;
         }
-        #footer{
-            font-size: 10px;
-            }}
-    
-/*When the screen has a width of 500px or below, the design format of the website will change. Image1 for home page (index.html) will move to the center of the screen. Header text will move to top center of the screen, font and image sizes will change for all pages*/
+            #footer{
+                font-size: 10px;
+            }
+        
+        }
+        
         @media screen and (max-width: 500px) {
         h1{
         font-size: 60px;
@@ -322,7 +326,8 @@
         text-align: center;
                 }
         .headertxt{
-            font-size: 20px;
+            font-size: 20px
+            padding-left: 110;
             padding-right: 10px;
             text-align: center;
         }
@@ -346,7 +351,8 @@
             }
             #footer{
                 font-size: 10px;
-            }}
+            }
+        }
         
 
         
