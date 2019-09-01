@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 
-
  <!--this is to make the website to adjust in order to be more suitable for different screen sizes-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="cafe.css">
+
+<!--links to bring in different stylesheets, fonts and css-->
+    <link rel="stylesheet" type="text/css" href="cafe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Fonts the website uses are imported from Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter&display=swap" rel="stylesheet">
 
+<!-- set default language to english, everything inside the header is what will on with the header image-->
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
@@ -20,6 +22,7 @@
         </div>
     </head>
     
+<!--Different navigations-->
 <div class="topnav" id="myTopnav">
     <a class="active" href="index.html">Home</a>
     <a href="menu.html">Menu</a>
@@ -29,9 +32,13 @@
   </a>
     </div>
     
+    
+    <!--start of main content, under the navbar-->
     <body>
+        <!--start of body1 (first body of text after navbar). Image can be replaced-->
         <div id="body1">
                 <img  src="https://images.unsplash.com/photo-1497636577773-f1231844b336?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"alt= "cup of coffee on a round table, top view" class="image1">
+        <!--Text listing the open times, text after <br> can be changed according to correct cafe open time-->
         <div class="opentime">
             <h2>Our Open Time</h2>
             <br>Monday 8.30AM ~ 5.30PM
@@ -43,12 +50,16 @@
             <br>Sunday 8.30AM ~ 5.30PM
         </div>   
         </div>
+               
+        <!--start of body2 (Second body of text after navbar).Background image can be replaced on the CSS file under body2-->
         <div id="body2">
         <p>Welcome to the Latte Cafe!</p>
         <br><p>It is our responsibilty for serve our customers their daily cup of fresh coffee to start off their day.</p>
         <br><p>We have a range of coffee to non-coffee drinks to choose from.</p>
         <br><p>Browse through our menu to get more infomation on our delicious beverages!</p>
         </div>
+        
+        <!--start of footer (last body of text on home page). *REMOVE DISCLAIMER AND ADD CAFE'S CONTACT INFORMATION (for business owner)-->
         <div id="footer">
         <hr>
         <p>DISCLAIMER:All images on this website are sample images, copyright free and available for commercial use. The owners should put up their own images onto the website if they want to update and edit later on.</p>
@@ -56,6 +67,7 @@
         </div>
         </body>
 
+    <!--using javascript to create responsive navbar-->
     <script>
         function myFunction() {
         var x = document.getElementById("myTopnav");

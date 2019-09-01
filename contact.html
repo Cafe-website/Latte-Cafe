@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 
-
  <!--this is to make the website to adjust in order to be more suitable for different screen sizes-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="cafe.css">
+
+<!--links to bring in different stylesheets, fonts and css-->
+    <link rel="stylesheet" type="text/css" href="cafe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Fonts the website uses are imported from Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter&display=swap" rel="stylesheet">
 
+<!-- set default language to english, everything inside the header is what will on with the header image-->
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
@@ -20,6 +22,7 @@
         </div>
     </head>
     
+<!--Different navigations-->
 <div class="topnav" id="myTopnav">
     <a  href="index.html">Home</a>
     <a  href="menu.html">Menu</a>
@@ -30,6 +33,7 @@
     </div>
     
     <body>
+        <!--start of body4 (body of text after navbar)-->
         <div id=body4>
             <h2>Our contact details</h2>
             <p>Please feel free to contact us through the details below for any inquiries!</p>
@@ -37,7 +41,9 @@
             <p>Email: <u>LatteCafe@gmail.com</u></p>
             <p>Call or TXT us on: <u>+64 (026) 2244-180</u></p>
         </div>
-    
+            
+        
+        <!--start of footer (last body of text on home page). *REMOVE DISCLAIMER AND ADD CAFE'S CONTACT INFORMATION (for business owner)-->
         <div id="footer">
         <hr>
         <p>DISCLAIMER:All images on this website are sample images, copyright free and available for commercial use. The owners should put up their own images onto the website if they want to update and edit later on.</p>
@@ -45,7 +51,8 @@
         </div>
         </body>
 
-    
+        
+        <!--using javascript to create responsive navbar-->
         <script>
         function myFunction() {
         var x = document.getElementById("myTopnav");
@@ -54,5 +61,5 @@
         } else {
         x.className = "topnav";
         }}
-</script>
+        </script>
 </html>

@@ -2,11 +2,14 @@
 
  <!--this is to make the website to adjust in order to be more suitable for different screen sizes-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="cafe.css">
+
+<!--links to bring in different stylesheets, fonts and css-->
+    <link rel="stylesheet" type="text/css" href="cafe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Fonts the website uses are imported from Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter&display=swap" rel="stylesheet">
 
+<!-- set default language to english, everything inside the header is what will on with the header image-->
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
@@ -19,6 +22,7 @@
         </div>
     </head>
     
+<!--Different navigations-->
 <div class="topnav" id="myTopnav">
     <a  href="index.html">Home</a>
     <a  class="active" href="menu.html">Menu</a>
@@ -29,11 +33,12 @@
     </div>
     
     <body>
+        <!--start of body3 (first body of text after navbar)-->
         <div id="body3">
         <p>Latte Cafe serves many beverages. Whether you want coffee or tea- cold or hot, we will do our best to fulfill our customer's needs</p>
         <p>Please feel free to contact any of our staff members to inquire us about dietary requirements!</p>
         <br><hr>
-
+        <!--List of different menu-->
         <div class="menu">
             <br>
             <p class="price">(Regular: $4.50, Large: $5.50)</p>
@@ -59,6 +64,8 @@
             <p class="price">(Regular: $4.50, Large: $5.50)</p>
             <p>Espresso- A shot of our compressed espresso, full of the flavours of the coffee beans.</p>
             <br><hr>
+            
+        <!--List of extras that can be added to coffee-->
         <div class="extra">
             <p>Extras</p>
             <p>Extra espresso shot to your coffee. ($0.50)</p>
@@ -67,6 +74,7 @@
         </div>
         </div>
     
+        <!--start of footer (last body of text on home page). *REMOVE DISCLAIMER AND ADD CAFE'S CONTACT INFORMATION (for business owner)-->
         <div id="footer">
         <hr>
         <p>DISCLAIMER:All images on this website are sample images, copyright free and available for commercial use. The owners should put up their own images onto the website if they want to update and edit later on.</p>
@@ -74,14 +82,14 @@
         </div>
         </body>
 
+        <!--using javascript to create responsive navbar-->
         <script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+            function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {
+            x.className = "topnav";
+            }}
 </script>
 </html>
