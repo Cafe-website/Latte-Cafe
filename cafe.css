@@ -322,9 +322,11 @@
             padding-top: 200px;
         }
        #body4{
-            font-size: 15px;
+            font-size: 10px;
         }
-        
+            .menu{
+                font-size: 10px;
+            }
 }
         
 
